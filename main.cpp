@@ -1,9 +1,12 @@
 #include <iostream>
+ int main()
+  {   int a, b;
+   cout << "Enter A and B: ";
+    cin >> a >> b;
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello world!" << endl;
-    return 0;
-}
+ cout << "A + B = " << a + b << '\n'
+      << "A - B = " << a - b << '\n'
+      << "A * B = " << a * b << '\n';
+return 0;
+  }
+// autor: nikita lebedko ke-317
